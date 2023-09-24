@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--Jesus-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>List-On</title>
+</head>
+
+<body>
+    <div class="container">
+        <header id="header">
+            <div id="informations">
+                <h1>List-On</h1>
+                <p>The best.</p>
+            </div>
+            <nav id="navagation">
+                <ul id="navegation-buttons">
+                    <li>
+                        <a href="index.html" id="p-buttons">Home</a>
+                    </li>
+                    <li>
+                        <a href="###" target="_blank" id="p-buttons">About Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main id="principal-main">
+            <p id="description">Be a most organist person, try it today with a great and powerful platform ListOn!</p>
+            <div id="floating-pop-up">
+                <button onclick="cancelTheCreation()" class="pop-up-cancel-button" id="p-buttons">Cancel</button>
+                <h1 id="pop-up-title">Create a new Task</h1>
+                <div id="create-form">
+                    <p>New task:</p>
+                    <input type="text" id="task-title">
+                </div>
+                <div id="create-pop-up-button">
+                    <button onclick="createNewTask()" id="p-buttons">Create new Task</button>
+                </div>
+            </div>
+            <section id="create-and-delete-buttons">
+                <ul id="c-d-button">
+                    <li>
+                        <button onclick="makeAnewTask()" id="p-buttons">Create</button>
+                    </li>
+                    <li>
+                        <button onclick="clearTasks()" id="p-buttons">Clear</button>
+                    </li>
+                </ul>
+            </section>
+            <section id="task-table">
+                <div id="table">
+                    Try to create a new task
+                </div>
+            </section>
+        </main>
+        <footer id="footer-and-copyrights">
+            <div id="infos-in-footer">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores magnam labore quis neque debitis cum reprehenderit laboriosam, rerum aliquid voluptatem inventore culpa, id delectus voluptatibus modi porro, illum eos atque?</p>
+                <p><i class="bi bi-c-circle"></i> ListOn.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="../Scripts/scripts.js"></script>
+</body>
+
+</html>
+<!--By Isaque Da S. Miclos-->

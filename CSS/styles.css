@@ -1,0 +1,154 @@
+/*FORMATATION*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+div.container {
+    max-width: 1920px;
+    width: 100%;
+    left: auto;
+    right: auto;
+    background-color: grey;
+}
+
+/*HEADER*/
+
+header#header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #2d2d30;
+}
+
+#informations {
+    margin: 5px;
+    color: grey;
+    text-transform: uppercase;
+    border: 2px solid grey;
+    padding: 5px;
+}
+
+nav#navagation {
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    text-align: center;
+}
+
+ul#navegation-buttons {
+    display: flex;
+    list-style: none;
+    margin: 22px 0;
+}
+
+ul#navegation-buttons li{
+    margin: 0 3px;
+}
+
+#p-buttons{
+    text-decoration: none;
+    padding: 10px;
+    width: 90px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: grey;
+    border: none;
+    transition: .4s;
+}
+
+#p-buttons:hover{
+    background-color: rgba(0, 0, 0, 0.192);
+}
+
+/*MAIN*/
+
+#principal-main {
+    padding: 10px;
+    text-align: center;
+}
+
+#description{
+    background-color: rgba(0, 0, 0, 0.192);
+    padding: 10px;
+}
+
+#create-and-delete-buttons {
+    margin: 15px 6em;
+    position: relative;
+}
+
+ul#c-d-button {
+    list-style: none;
+    display: flex;
+}
+
+ul#c-d-button li{
+    margin-right: 5px;
+}
+
+ul#c-d-button li button{
+    background-color: #2d2d30;
+}
+
+#task-table {
+    height: 600px;
+    background-color: #fff;
+    border: 1px solid #2d2d30;
+    margin: 15px 6em;
+}
+
+div#table{
+    text-align: left;
+    padding: 30px;
+}
+
+p#tasks {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+#floating-pop-up {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%,-65%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: left;
+    width: 900px;
+}
+
+#pop-up-title {
+    color: #fff;
+    margin: 5px 0;
+}
+
+div#create-form {
+    margin: 5px 0;
+    color: #FFF;
+}
+
+div#create-form input {
+    padding: 5px;
+    width: 100%;
+}
+
+div#create-pop-up-button {
+    margin: 10px 0;
+}
+div#create-pop-up-button button {
+    width: 150px;
+}
+
+/*FOOTER*/
+
+#footer-and-copyrights {
+    padding: 15px;
+    background-color: #2d2d30;
+    color: grey;
+}
