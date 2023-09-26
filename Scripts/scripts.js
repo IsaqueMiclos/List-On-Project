@@ -16,21 +16,31 @@ function createNewTask() {
     let principalTable = document.getElementById('table')
     
     if (counterOfTasks == 1) {
-        principalTable.innerHTML = `
-            <p id="tasks" id="${ids}">
-                <span>${ids}</span>
-                <input type="checkbox" name="task0${ids}">
-                <span>${task.value}</span>
-            </p>
-        `
+        if (!task.value == " ") {
+            principalTable.innerHTML = `
+                <p id="tasks" id="${ids}">
+                    <span>${ids}</span>
+                    <input type="checkbox" name="task0${ids}">
+                    <span>${task.value}</span>
+                </p>
+            `
+        } else {
+            ids -= 1
+            alert('Error! Please verify the contents')
+        }
     } else {
-        principalTable.innerHTML += `
-            <p id="tasks" id="${ids}">
-                <span>${ids}</span>
-                <input type="checkbox" name="task0${ids}">
-                <span>${task.value}</span>
-            </p>
-        `
+        if (!task.value == " ") {
+            principalTable.innerHTML += `
+                <p id="tasks" id="${ids}">
+                    <span>${ids}</span>
+                    <input type="checkbox" name="task0${ids}">
+                    <span>${task.value}</span>
+                </p>
+            `
+        } else {
+            ids -= 1
+            alert('Error! Please verify the contents')
+        }
     }
 
     display.style.display = 'none'

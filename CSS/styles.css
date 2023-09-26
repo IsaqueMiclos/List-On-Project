@@ -71,7 +71,6 @@ ul#navegation-buttons li{
 /*MAIN*/
 
 #principal-main {
-    padding: 10px;
     text-align: center;
 }
 
@@ -82,7 +81,6 @@ ul#navegation-buttons li{
 
 #create-and-delete-buttons {
     margin: 15px 6em;
-    position: relative;
 }
 
 ul#c-d-button {
@@ -154,4 +152,50 @@ div#create-pop-up-button button {
     padding: 15px;
     background-color: #2d2d30;
     color: grey;
+}
+
+/*ABOUT-US-PAGE*/
+
+#about-us-main{
+    margin: 15px;
+    position: relative;
+    background-color: #232324;
+    border: 1px solid #2d2d30;
+}
+
+#title-and-subtitle {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background-color: #2d2d30;
+}
+
+#title-and-subtitle h1{
+    font-size: 45pt;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+div#text{
+    margin: 2rem 6rem;
+    text-align: justify;
+    color: whitesmoke;
+}
+
+div#social-media{
+    margin: 5px auto;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+div#social-media span {
+    text-decoration: none;
+    font-size: 24pt;
+    margin: 0 5px;
+}
+
+div#social-media span a {
+    text-decoration: none;
+    color: white;
 }
