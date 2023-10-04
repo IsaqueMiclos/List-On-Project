@@ -72,6 +72,7 @@ ul#navegation-buttons li{
 
 #principal-main {
     text-align: center;
+    min-height: 375px;
 }
 
 #description{
@@ -149,6 +150,8 @@ div#create-pop-up-button button {
 /*FOOTER*/
 
 #footer-and-copyrights {
+    position: relative;
+    margin-top: 15px;
     padding: 15px;
     background-color: #2d2d30;
     color: grey;
